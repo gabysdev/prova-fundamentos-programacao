@@ -10,3 +10,6 @@ python main.py
 
 # Lista de comandos no git executados
 git init
+git add.
+git commit
+git status
