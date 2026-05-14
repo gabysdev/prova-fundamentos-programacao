@@ -23,12 +23,12 @@ def sistema_vendas():
             quantidade = int(input("Quantidade: "))
             desconto_percentual = float(input("Desconto aplicado (em %): "))
 
-            # Cálculos da venda
+# Cálculos da venda
             valor_bruto = valor_unitario * quantidade
             valor_desconto = valor_bruto * (desconto_percentual / 100)
             valor_final = valor_bruto - valor_desconto
 
-            # Atualizando os totais
+# Atualizando os totais
             total_vendas += 1
             total_bruto += valor_bruto
             total_descontos += valor_desconto
